@@ -1,0 +1,1 @@
+docker exec -it 0279ba95182c psql -U thervieu -d piscineds -h localhost -W
