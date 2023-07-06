@@ -40,8 +40,10 @@ def normal():
     plt.show()
 
 def main():
+    print(len(sys.argv))
     if len(sys.argv) != 2:
         print("Please input the mode you want: normal or compare")
+        return
     if sys.argv[1] == "normal":
         normal()
         return

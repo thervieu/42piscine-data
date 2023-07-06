@@ -8,7 +8,6 @@ import seaborn as sns
 
 
 def main():
-
     if os.path.exists(f'../assets/Train_knight.csv') is False:
         print(f'please add the ../assets/Train_knight.csv')
         return
